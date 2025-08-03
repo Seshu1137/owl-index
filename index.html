@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="dist/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/2.3.2/css/dataTables.dataTables.min.css">
+</head>
+
+<body>
+
+    <section class="container p-3">
+        <h1 class="mb-4 p-2 text-center m-3">Watch <span id="movies" data-target="1000" data-duration="1700">0</span>+
+            Movies for Free by <span id="hours" data-target="24" data-duration="1700">0</span> Hours</h1>
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img src="dist/assets/2.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img src="dist/assets/1.webp" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img src="dist/assets/3.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img src="dist/assets/4.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img src="dist/assets/5.webp" alt="" srcset="">
+            </div>
+
+
+        </div>
+
+        <div class="table-responsive">
+            <table class="table table-bordered mb-5 text-center" id="myTable">
+                <h2 class="text-center my-3 text-decoration-underline">Flight Details</h2>
+                <caption>Flight Information (60 Flights)</caption>
+                <thead style="background-color: #f2f2f2;">
+                    <tr>
+                        <th>Flight Name</th>
+                        <th>Duration</th>
+                        <th>Seats Available</th>
+                        <th>Timings</th>
+                        <th>Gate Number</th>
+                        <th>Terminal</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>AirNova 101</td>
+                        <td>2h 15m</td>
+                        <td>34</td>
+                        <td>06:30 AM</td>
+                        <td>A1</td>
+                        <td>Terminal 1</td>
+                    </tr>
+                    <tr>
+                        <td>SkyJet 202</td>
+                        <td>3h 10m</td>
+                        <td>12</td>
+                        <td>07:45 AM</td>
+                        <td>B4</td>
+                        <td>Terminal 2</td>
+                    </tr>
+                    <tr>
+                        <td>JetBlue 303</td>
+                        <td>1h 50m</td>
+                        <td>0</td>
+                        <td>08:20 AM</td>
+                        <td>C3</td>
+                        <td>Terminal 3</td>
+                    </tr>
+                    <tr>
+                        <td>FlyHigh 404</td>
+                        <td>2h 45m</td>
+                        <td>22</td>
+                        <td>09:00 AM</td>
+                        <td>D6</td>
+                        <td>Terminal 1</td>
+                    </tr>
+                    <tr>
+                        <td>CloudAir 505</td>
+                        <td>4h 05m</td>
+                        <td>18</td>
+                        <td>09:40 AM</td>
+                        <td>E2</td>
+                        <td>Terminal 4</td>
+                    </tr>
+                    <tr>
+                        <td>JetGo 606</td>
+                        <td>3h 30m</td>
+                        <td>9</td>
+                        <td>10:15 AM</td>
+                        <td>F1</td>
+                        <td>Terminal 2</td>
+                    </tr>
+                    <tr>
+                        <td>SwiftAir 707</td>
+                        <td>1h 25m</td>
+                        <td>45</td>
+                        <td>10:50 AM</td>
+                        <td>G7</td>
+                        <td>Terminal 3</td>
+                    </tr>
+                    <tr>
+                        <td>RapidWings 808</td>
+                        <td>2h 05m</td>
+                        <td>17</td>
+                        <td>11:30 AM</td>
+                        <td>H3</td>
+                        <td>Terminal 1</td>
+                    </tr>
+                    <tr>
+                        <td>NovaJet 909</td>
+                        <td>3h 00m</td>
+                        <td>29</td>
+                        <td>12:00 PM</td>
+                        <td>I6</td>
+                        <td>Terminal 4</td>
+                    </tr>
+                    <tr>
+                        <td>AeroSky 010</td>
+                        <td>2h 50m</td>
+                        <td>5</td>
+                        <td>12:45 PM</td>
+                        <td>J9</td>
+                        <td>Terminal 2</td>
+                    </tr>
+                    <tr>
+                        <td>AirNova 111</td>
+                        <td>1h 45m</td>
+                        <td>38</td>
+                        <td>01:10 PM</td>
+                        <td>A4</td>
+                        <td>Terminal 1</td>
+                    </tr>
+                    <tr>
+                        <td>SkyJet 212</td>
+                        <td>2h 40m</td>
+                        <td>0</td>
+                        <td>01:55 PM</td>
+                        <td>B5</td>
+                        <td>Terminal 3</td>
+                    </tr>
+                    <tr>
+                        <td>JetBlue 313</td>
+                        <td>3h 20m</td>
+                        <td>7</td>
+                        <td>02:30 PM</td>
+                        <td>C2</td>
+                        <td>Terminal 2</td>
+                    </tr>
+                    <tr>
+                        <td>FlyHigh 414</td>
+                        <td>2h 10m</td>
+                        <td>15</td>
+                        <td>03:00 PM</td>
+                        <td>D1</td>
+                        <td>Terminal 4</td>
+                    </tr>
+                    <tr>
+                        <td>CloudAir 515</td>
+                        <td>1h 30m</td>
+                        <td>41</td>
+                        <td>03:35 PM</td>
+                        <td>E7</td>
+                        <td>Terminal 1</td>
+                    </tr>
+                    <tr>
+                        <td>JetGo 616</td>
+                        <td>2h 55m</td>
+                        <td>3</td>
+                        <td>04:10 PM</td>
+                        <td>F3</td>
+                        <td>Terminal 2</td>
+                    </tr>
+                    <tr>
+                        <td>SwiftAir 717</td>
+                        <td>3h 05m</td>
+                        <td>27</td>
+                        <td>04:45 PM</td>
+                        <td>G1</td>
+                        <td>Terminal 3</td>
+                    </tr>
+                    <tr>
+                        <td>RapidWings 818</td>
+                        <td>4h 10m</td>
+                        <td>8</td>
+                        <td>05:15 PM</td>
+                        <td>H5</td>
+                        <td>Terminal 1</td>
+                    </tr>
+                    <tr>
+                        <td>NovaJet 919</td>
+                        <td>2h 20m</td>
+                        <td>14</td>
+                        <td>05:50 PM</td>
+                        <td>I3</td>
+                        <td>Terminal 4</td>
+                    </tr>
+                    <tr>
+                        <td>AeroSky 020</td>
+                        <td>1h 40m</td>
+                        <td>35</td>
+                        <td>06:25 PM</td>
+                        <td>J2</td>
+                        <td>Terminal 2</td>
+                    </tr>
+                    <tr>
+                        <td>AirNova 121</td>
+                        <td>2h 35m</td>
+                        <td>19</td>
+                        <td>07:00 PM</td>
+                        <td>A6</td>
+                        <td>Terminal 3</td>
+                    </tr>
+                    <tr>
+                        <td>SkyJet 222</td>
+                        <td>3h 15m</td>
+                        <td>0</td>
+                        <td>07:30 PM</td>
+                        <td>B1</td>
+                        <td>Terminal 1</td>
+                    </tr>
+                    <tr>
+                        <td>JetBlue 323</td>
+                        <td>2h 00m</td>
+                        <td>6</td>
+                        <td>08:10 PM</td>
+                        <td>C7</td>
+                        <td>Terminal 2</td>
+                    </tr>
+                    <tr>
+                        <td>FlyHigh 424</td>
+                        <td>1h 55m</td>
+                        <td>28</td>
+                        <td>08:40 PM</td>
+                        <td>D4</td>
+                        <td>Terminal 4</td>
+                    </tr>
+                    <tr>
+                        <td>CloudAir 525</td>
+                        <td>3h 25m</td>
+                        <td>2</td>
+                        <td>09:20 PM</td>
+                        <td>E1</td>
+                        <td>Terminal 3</td>
+                    </tr>
+                    <tr>
+                        <td>JetGo 626</td>
+                        <td>2h 30m</td>
+                        <td>21</td>
+                        <td>09:55 PM</td>
+                        <td>F6</td>
+                        <td>Terminal 2</td>
+                    </tr>
+                    <tr>
+                        <td>SwiftAir 727</td>
+                        <td>2h 45m</td>
+                        <td>10</td>
+                        <td>10:30 PM</td>
+                        <td>G4</td>
+                        <td>Terminal 1</td>
+                    </tr>
+                    <tr>
+                        <td>RapidWings 828</td>
+                        <td>1h 35m</td>
+                        <td>40</td>
+                        <td>11:05 PM</td>
+                        <td>H2</td>
+                        <td>Terminal 4</td>
+                    </tr>
+                    <tr>
+                        <td>NovaJet 929</td>
+                        <td>3h 10m</td>
+                        <td>11</td>
+                        <td>11:45 PM</td>
+                        <td>I7</td>
+                        <td>Terminal 3</td>
+                    </tr>
+                    <tr>
+                        <td>AeroSky 030</td>
+                        <td>4h 00m</td>
+                        <td>26</td>
+                        <td>12:30 AM</td>
+                        <td>J5</td>
+                        <td>Terminal 2</td>
+                    </tr>
+                    <tr>
+                        <td>AirNova 131</td>
+                        <td>1h 20m</td>
+                        <td>36</td>
+                        <td>01:15 AM</td>
+                        <td>A2</td>
+                        <td>Terminal 1</td>
+                    </tr>
+                    <tr>
+                        <td>SkyJet 232</td>
+                        <td>2h 50m</td>
+                        <td>13</td>
+                        <td>01:55 AM</td>
+                        <td>B8</td>
+                        <td>Terminal 4</td>
+                    </tr>
+                    <tr>
+                        <td>JetBlue 333</td>
+                        <td>3h 35m</td>
+                        <td>4</td>
+                        <td>02:35 AM</td>
+                        <td>C5</td>
+                        <td>Terminal 3</td>
+                    </tr>
+                    <tr>
+                        <td>FlyHigh 434</td>
+                        <td>2h 05m</td>
+                        <td>37</td>
+                        <td>03:10 AM</td>
+                        <td>D9</td>
+                        <td>Terminal 2</td>
+                    </tr>
+                    <tr>
+                        <td>CloudAir 535</td>
+                        <td>2h 40m</td>
+                        <td>0</td>
+                        <td>03:45 AM</td>
+                        <td>E6</td>
+                        <td>Terminal 1</td>
+                    </tr>
+                    <tr>
+                        <td>JetGo 636</td>
+                        <td>1h 50m</td>
+                        <td>24</td>
+                        <td>04:20 AM</td>
+                        <td>F2</td>
+                        <td>Terminal 3</td>
+                    </tr>
+                    <tr>
+                        <td>SwiftAir 737</td>
+                        <td>2h 25m</td>
+                        <td>16</td>
+                        <td>05:00 AM</td>
+                        <td>G6</td>
+                        <td>Terminal 2</td>
+                    </tr>
+                    <tr>
+                        <td>RapidWings 838</td>
+                        <td>3h 00m</td>
+                        <td>31</td>
+                        <td>05:45 AM</td>
+                        <td>H8</td>
+                        <td>Terminal 4</td>
+                    </tr>
+                    <tr>
+                        <td>NovaJet</td>
+                        <td>2h 15m</td>
+                        <td>1</td>
+                        <td>06:20 AM</td>
+                        <td>I4</td>
+                        <td>Terminal 1</td>
+                    </tr>
+                    <tr>
+                        <td>AeroSky 040</td>
+                        <td>3h 45m</td>
+                        <td>33</td>
+                        <td>07:00 AM</td>
+                        <td>J1</td>
+                        <td>Terminal 3</td>
+                    </tr>
+                    <tr>
+                        <td>AirNova 141</td>
+                        <td>2h 10m</td>
+                        <td>30</td>
+                        <td>07:40 AM</td>
+                        <td>A5</td>
+                        <td>Terminal 2</td>
+                    </tr>
+                    <tr>
+                        <td>SkyJet 242</td>
+                        <td>1h 30m</td>
+                        <td>44</td>
+                        <td>08:15 AM</td>
+                        <td>B9</td>
+                        <td>Terminal 1</td>
+                    </tr>
+                    <tr>
+                        <td>JetBlue 343</td>
+                        <td>2h 20m</td>
+                        <td>20</td>
+                        <td>08:50 AM</td>
+                        <td>C6</td>
+                        <td>Terminal 4</td>
+                    </tr>
+                    <tr>
+                        <td>FlyHigh 444</td>
+                        <td>3h 50m</td>
+                        <td>0</td>
+                        <td>09:30 AM</td>
+                        <td>D8</td>
+                        <td>Terminal 3</td>
+                    </tr>
+                    <tr>
+                        <td>CloudAir 545</td>
+                        <td>2h 35m</td>
+                        <td>23</td>
+                        <td>10:10 AM</td>
+                        <td>E9</td>
+                        <td>Terminal 2</td>
+                    </tr>
+                    <tr>
+                        <td>JetGo 646</td>
+                        <td>1h 55m</td>
+                        <td>32</td>
+                        <td>10:45 AM</td>
+                        <td>F8</td>
+                        <td>Terminal 1</td>
+                    </tr>
+                    <tr>
+                        <td>SwiftAir 747</td>
+                        <td>3h 25m</td>
+                        <td>25</td>
+                        <td>11:20 AM</td>
+                        <td>G9</td>
+                        <td>Terminal 4</td>
+                    </tr>
+                    <tr>
+                        <td>RapidWings 848</td>
+                        <td>2h 45m</td>
+                        <td>39</td>
+                        <td>12:00 PM</td>
+                        <td>H1</td>
+                        <td>Terminal 3</td>
+                    </tr>
+                    <tr>
+                        <td>NovaJet 949</td>
+                        <td>1h 40m</td>
+                        <td>43</td>
+                        <td>12:35 PM</td>
+                        <td>I8</td>
+                        <td>Terminal 2</td>
+                    </tr>
+                    <tr>
+                        <td>AeroSky 050</td>
+                        <td>4h 20m</td>
+                        <td>46</td>
+                        <td>01:10 PM</td>
+                        <td>J6</td>
+                        <td>Terminal 1</td>
+                    </tr>
+                    <tr>
+                        <td>AirNova 151</td>
+                        <td>3h 15m</td>
+                        <td>42</td>
+                        <td>01:45 PM</td>
+                        <td>A3</td>
+                        <td>Terminal 3</td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="dist/owl.carousel.min.js"></script>
+    <script src="counterup.js"></script>
+    <script src="https://cdn.datatables.net/2.3.2/js/dataTables.min.js"></script>
+    <script>
+        $('#myTable').DataTable();
+        $('#movies').counterUp()
+        $('#hours').counterUp()
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            autoplay: true,
+            autoplayTimeout: 2000,
+            autoplayHoverPause: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 2
+                },
+                1000: {
+                    items: 4
+                }
+            }
+        })
+    </script>
+</body>
+
+</html>
